@@ -1,0 +1,48 @@
+body {
+  background: #ffffff;
+  color: #000000;
+  font-family: 'OCR B', monospace;
+  text-align: left;
+  margin: 0;
+  padding: 2em;
+    font-size: 14px; /* Base size */
+}
+
+h1 {
+  text-align: center;
+}
+
+pre {
+  font-family: 'OCR B', monospace;
+}
+
+img {
+  /* max-width: 50%; */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns of equal width */
+  gap: 10px; /* space between images */
+  max-width: 50%; 
+  margin: 0 auto; /* center the grid */
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+a {
+  color: #0000ee;
+  text-decoration: underline;
+}
