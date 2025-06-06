@@ -22,8 +22,8 @@ pre {
 img {
   max-width: 50%;
   height: auto;
+  margin: 1.5rem auto;
   display: block;
-  margin: 0 auto;
 }
 
 .iframe-container {
