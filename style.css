@@ -7,6 +7,9 @@ body {
   padding: 2em;
     font-size: 14px; /* Base size */
 }
+* {
+  text-transform: none !important;
+}
 
 h1 {
   text-align: center;
@@ -17,18 +20,33 @@ pre {
 }
 
 img {
-  /* max-width: 50%; */
+  max-width: 50%;
   height: auto;
   display: block;
   margin: 0 auto;
 }
+
+.iframe-container {
+  text-align: center;
+}
+
+
 .image-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 columns of equal width */
-  gap: 10px; /* space between images */
-  max-width: 50%; 
-  margin: 0 auto; /* center the grid */
+  gap: 10px;
+  max-width: 100%;
+  margin: 0 auto;
 }
+
+.image-grid img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+}
+
 
 .image-grid img {
   width: 100%;
